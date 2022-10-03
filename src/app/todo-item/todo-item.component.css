@@ -1,0 +1,9 @@
+.list{
+    border-radius: 10px;
+    /* background-color: #fff; */
+    margin: 10px;
+}
+.task {
+  font-family: Impact, serif;
+    font-size: 20px;
+}

@@ -1,0 +1,23 @@
+
+<!-- <button (click)="deleteSelected()">Usuń zaznaczone</button>
+<input type="text" [formControl]="name" >
+
+<button (click)="addTodo()">Dodaj</button> -->
+
+<!-- ---------------------------------------------- -->
+
+<h2 class="header">ToDoApp</h2>
+<mat-form-field class="example-full-width color-red" appearance="fill">
+  <mat-label>wpisz zadanie...</mat-label>
+     <input class="input-name" matInput placeholder="np:zrobić zakupy" type="text" [formControl]="name" >
+ </mat-form-field>
+<button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" (click)="deleteSelected()">
+ <mat-icon>delete</mat-icon>
+ </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" (click)="addTodo()">
+ <mat-icon>add</mat-icon>
+  </button>
+
+
+
+

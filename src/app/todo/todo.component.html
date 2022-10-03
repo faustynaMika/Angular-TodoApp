@@ -1,0 +1,8 @@
+<div class="main">
+    <app-todo-nav 
+    (deletedSelectedEmitter)="deleteSelected()"
+    (addTodoEmitter)="addTodo($event)"
+    ></app-todo-nav>
+    <app-todo-list [todos]="todos"></app-todo-list>
+</div>
+
